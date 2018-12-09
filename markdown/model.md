@@ -4,7 +4,7 @@
 
 ### first step
 
-* You should define the schema by Joi.
+1. You should define the schema by Joi.
 
   * create props
   
@@ -17,11 +17,12 @@
   ```
   
   * define schema
+  
   ```javascript
   const schema = Joi.object().keys(props).description('user info')
   ```
   
-* write swagger document
+2. write swagger document
 
  * Parameter Description
  
